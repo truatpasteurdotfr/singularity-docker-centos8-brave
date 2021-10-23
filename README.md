@@ -1,10 +1,10 @@
 # singularity-docker-centos8-brave
-centos8 container to run brave (at library://tru/default/c8-brave)
+centos8 container to run brave built from github actions
 
 
 Running without installation:
 ```
-singularity run  -B /run library://tru/default/c8-brave
+singularity run  -B /run oras://ghcr.io/truatpasteurdotfr/singularity-docker-centos8-brave:latest
 ```
 Building:
 ```
@@ -12,7 +12,7 @@ sudo singularity build singularity-docker-centos8-brave.sif  Singularity
 ```
 Download and rename:
 ```
-singularity pull --name singularity-docker-centos8-brave.sif library://tru/default/c8-brave
+singularity pull --name singularity-docker-centos8-brave.sif oras://ghcr.io/truatpasteurdotfr/singularity-docker-centos8-brave:latest
 ```
 Running with a separate $HOME  (here ~/singularity.d/home/singularity-docker-centos8-brave)
 ```
