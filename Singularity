@@ -10,6 +10,7 @@ dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86
 rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc && \
 dnf -y install \
 	libglvnd-glx \
+	mesa-dri-drivers \
 	brave-browser && \
 dnf clean packages
 
