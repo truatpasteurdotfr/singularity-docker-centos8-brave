@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: quay.io/singularity/singularity:v3.8.3
-#      options: --privileged
+      options: --privileged
     permissions:
       contents: read
       packages: write
