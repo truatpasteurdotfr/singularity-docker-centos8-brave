@@ -1,4 +1,4 @@
-# singularity-docker-centos8-brave
+# singularity-docker-centos8-brave (using stream8 now that centos8 is EOL'ed)
 centos8 container to run brave built from github actions
 
 
